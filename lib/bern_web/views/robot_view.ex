@@ -15,7 +15,7 @@ defmodule BernWeb.RobotView do
   def render("rss.xml", %{}) do
     BernWeb.Rss.generate(%BernWeb.Rss{
       title: @generic.title,
-      author: "David Bernheisel",
+      author: "Abhishek Tripathi",
       description: @generic.description,
       posts: Bern.Blog.published_posts()
     })
