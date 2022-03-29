@@ -29,9 +29,9 @@ defmodule BernWeb.SEO.OpenGraph do
     article_section: "Software Development",
     # site = twitter handle representing the overall site.
     locale: "en_US",
-    site: "@bernheisel",
+    site: "@twistin456",
     site_title: @generic.title,
-    twitter_handle: "@bernheisel",
+    twitter_handle: "@twistin456",
     type: "website"
   ]
 
