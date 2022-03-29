@@ -6,8 +6,8 @@ defmodule BernWeb.Endpoint do
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
-    key: "_bern_key",
-    signing_salt: "1Vs0N70D"
+    key: "_tilly_key",
+    signing_salt: "9VhalyUDo"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
