@@ -5,6 +5,7 @@ defmodule Bern.MixProject do
     [
       app: :bern,
       version: File.read!("VERSION") |> String.trim(),
+      # version: "0.7.2",
       elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix] ++ Mix.compilers(),
